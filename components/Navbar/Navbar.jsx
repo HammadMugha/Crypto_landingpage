@@ -20,7 +20,7 @@ export default function Navbar() {
             ))}
           </ul>
           {/* buttons */}
-          <div className="flex gap-3">
+          <div className="gap-3 hidden md:flex">
           <Button text={"Sign In"} style={"bg-dark text-white"} />
           <Button text={"Sign Up"} style={"bg-darkBlue text-white"} />
           </div>
